@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using HAHDotNetTrainingBatch1.MiniPerfumeManagementSystemWithAdo;
+using System.Data;
+using System.Data.SqlClient;
+
+
+PerfumeService perfume = new PerfumeService();
+perfume.create();
